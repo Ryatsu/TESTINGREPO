@@ -1,0 +1,36 @@
+.luckButton {
+  background: linear-gradient(45deg, #ff4081, #ff1744);
+  color: white;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.luckButton:hover {
+  background: linear-gradient(45deg, #ff1744, #ff4081);
+  transform: scale(1.05);
+}
+
+.luckButton:active {
+  transform: scale(0.95);
+}
+
+.backButton {
+  margin-top: 20px;
+  background: #444;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s ease;
+}
+
+.backButton:hover {
+  background: #222;
+}
